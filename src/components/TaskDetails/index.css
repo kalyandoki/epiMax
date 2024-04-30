@@ -1,0 +1,31 @@
+* {
+  font-family: 'Roboto';
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(17, 3, 5);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgba(216, 83, 149, 0.842);
+}
+.del-btn {
+  width: 70px;
+  height: 30px;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 20px;
+  background-color: rgb(153, 198, 240);
+}
+p {
+  width: 200px;
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
